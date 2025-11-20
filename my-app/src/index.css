@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .font-aladin {
+    font-family: 'Aladin', cursive;
+  }
+.font-stack {
+  font-family: "Stack Sans Notch", sans-serif;
+}
+.lobster{
+  font-family: "Lobster Two", sans-serif;
+ 
+}
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.anton {
+  font-family: "Anton", sans-serif;
+}
+.tilt {
+  transform: rotate(-1deg);  
+}
+.tilt2 {
+  transform: rotate(-1deg);   
+}
+
+
+
+
+.recent{
+  width: 670px;
+  position: absolute;
+  left: 50%;
+   top: 560px;
+    transform: translate(-50%, -50%);
+  
+}
+.layout2{
+  height: 100%;
+}
+
+/* apps */
+.appbox{
+  
+  width: 1000px;
+   position: absolute;
+   top: 650px;
+   border-radius: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   flex-wrap: wrap;
+   gap: 45px;
+
+}
+.aps{
+
+ height:170px;
+ width:120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+ 
+}
+
+.imgs:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.imgs{
+  margin: 10px;
+}
+
+.imgs:hover{
+  box-shadow:black;
+}
+.title{
+  font-weight: 500;
+}
